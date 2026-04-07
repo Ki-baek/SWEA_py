@@ -24,6 +24,7 @@ def bfs(start, end):
       queue.extend(lst)
       lst = []
       cnt += 1
+      
   if judge:
     return cnt
   
